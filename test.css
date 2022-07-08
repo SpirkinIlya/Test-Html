@@ -1,11 +1,12 @@
-
 div {
-    font-family:'Courier New', Courier, monospace;
+    font-family:
+    'Courier New', Courier, monospace;
     font-size: 30px;
     font-weight: 700;
     text-align: center;
     border: 5px solid;
     margin: 10px;
+    min-width: fit-content;
 }
 .container {
     border: none;
@@ -15,14 +16,12 @@ div {
     text-align: left;
     padding-left: 10px;
     width: 20%;
-    float:left;
-	
+    float:
+    left;
 }
 .searchForm{
-    width: 45%;
+    width: calc(55% - 100px);
     float: left;
-
-   
 }
 .phone{
    width: 25%;
@@ -41,10 +40,10 @@ div {
  
 }
 .pageContent{
-    float:right;
-    width:60%;
+    float:
+    right;
+    width: calc(70% - 70px);
     height: 300px;
-
 }
 .clear{
     clear: both;
