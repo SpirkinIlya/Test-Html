@@ -1,0 +1,53 @@
+
+div {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    border: 5px solid;
+    margin: 10px;
+}
+.container {
+    border: none;
+    margin: 0;
+}
+.logo{
+    text-align: left;
+    padding-left: 10px;
+    width: 20%;
+    float:left;
+	
+}
+.searchForm{
+    width: 45%;
+    float: left;
+
+   
+}
+.phone{
+   width: 25%;
+   float: right;
+
+}
+.header{
+    height: 100px;
+}
+.news{
+    text-align: left;
+    padding-left: 10px;
+    width: 30%;
+    height: 300px;
+    float:left;
+ 
+}
+.pageContent{
+    float:right;
+    width:60%;
+    height: 300px;
+
+}
+.clear{
+    clear: both;
+    border: none;
+    margin: 0;
+}
