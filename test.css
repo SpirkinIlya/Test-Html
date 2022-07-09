@@ -10,14 +10,14 @@ div {
     min-width: fit-content;
 }
 .flex-container {
-  display: flex;
+    display: flex;
     border: none;
     padding: 5px;
     gap: 5px;
 }
 .container{
-  padding: 5px;
-  border: none;
+    padding: 5px;
+    border: none;
 }
 .logo{
     text-align: left;
@@ -25,7 +25,7 @@ div {
     width: 20%;
 }
 .searchForm{
-    width: 55%;
+    width: calc(55% - 50px);
 }
 .phone{
    width: 25%;
@@ -40,6 +40,29 @@ div {
     height: 300px;
 }
 .pageContent{
-    width: 70%;
+    width: calc(70% - 35px);
     height: 300px;
+}
+@media (max-width: 576px) {
+  div{
+    font-size: 25px;
+  }
+  .flex-container{
+    flex-direction: column;
+  }
+  .logo{
+    width: calc(100% - 20px);
+  }
+  .searchForm{
+    width: calc(100% - 10px);
+  }
+  .phone{
+    width: calc(100% - 10px);
+  }
+  .news{
+    width: calc(100% - 20px);
+  }
+  .pageContent{
+    width: calc(100% - 10px);
+  }
 }
