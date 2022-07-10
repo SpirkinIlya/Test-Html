@@ -3,14 +3,23 @@
 }
 body{
   margin:0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
 }
 div {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
-    font-weight: 700;
-    text-align: center;
     border: 5px solid;
     min-width: fit-content;
+}
+nav{
+  border: 5px solid;
+}
+footer{
+  border: 5px solid;
+}
+main{
+  border: 5px solid;
 }
 .flex-container {
     display: flex;
