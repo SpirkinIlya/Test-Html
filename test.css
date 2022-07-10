@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 body{
   margin:0;
 }
@@ -25,7 +28,7 @@ div {
     width: 20%;
 }
 .searchForm{
-    width: calc(55% - 50px);
+    width: 55%;
 }
 .phone{
    width: 25%;
@@ -40,7 +43,7 @@ div {
     height: 300px;
 }
 .pageContent{
-    width: calc(70% - 35px);
+    width: 70%;
     height: 300px;
 }
 @media (max-width: 576px) {
@@ -51,18 +54,18 @@ div {
     flex-direction: column;
   }
   .logo{
-    width: calc(100% - 20px);
+    width: 100%;
   }
   .searchForm{
-    width: calc(100% - 10px);
+    width: 100%;
   }
   .phone{
-    width: calc(100% - 10px);
+    width: 100%;
   }
   .news{
-    width: calc(100% - 20px);
+    width: 100%;
   }
   .pageContent{
-    width: calc(100% - 10px);
+    width: 100%;
   }
 }
